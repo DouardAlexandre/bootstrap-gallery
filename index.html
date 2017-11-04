@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Gallery</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="thumbnail-gallery.css">
+
+</head>
+<body>
+
+<div class="container gallery-container">
+
+    <h1>Illustrations</h1>
+
+    <p class="page-description text-center">Thumbnails With Title And Description</p>
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="img/cat.png">
+                        <img src="img/cat.png" alt="cat">
+                    </a>
+                    <div class="caption">
+                        <h3>Strange cat</h3>
+                        <p>Outils: Dessin + Illustrator + photoshop</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="img/banquier.png">
+                        <img src="img/banquier.png" alt="L'échappée">
+                    </a>
+                    <div class="caption">
+                        <h3>L'échappée</h3>
+                        <p>Outils: Tablette graphique + photoshop</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="img/couverture.jpg">
+                        <img src="img/couverture.jpg" alt="costard">
+                    </a>
+                    <div class="caption">
+                        <h3>1 costard pour 2</h3>
+                        <p>Réalisation de la pochette du groupe de chanson francaise 1costard pour 2.
+                        Illustrations-photomontage   
+                        Outils: Dessin + Tablette graphique + suite Adobe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="img/sacrifice.jpg">
+                        <img src="img/sacrifice.jpg" alt="freeze">
+                    </a>
+                    <div class="caption">
+                        <h3>Froid</h3>
+                        <p>Outils: Dessin + Illustrator</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="../images/rails.jpg">
+                        <img src="../images/rails.jpg" alt="Rails">
+                    </a>
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="../images/traffic.jpg">
+                        <img src="../images/traffic.jpg" alt="Traffic">
+                    </a>
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
+</html>
