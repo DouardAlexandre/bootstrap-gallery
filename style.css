@@ -8,6 +8,13 @@ body {
     height:7rem;
     color:black;
 }
+#mainNav a{
+    position:absolute;
+    left:0;
+    rigth:0;
+    margin-left:auto;
+    margin-rigth:auto;
+}
 
 .gallery-container h1 {
     text-align: center;
