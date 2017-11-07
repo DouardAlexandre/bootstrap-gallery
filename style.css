@@ -9,6 +9,9 @@ body {
     height:7rem;
     color:black;
 }
+#mainNav a{
+    text-align:center;
+}
 .gallery-container h1 {
     text-align: center;
     margin-top: 70px;
