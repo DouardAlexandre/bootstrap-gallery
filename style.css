@@ -15,6 +15,10 @@ body {
     margin-left:auto;
     margin-right:auto;
     bottom:4rem;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    bottom:3rem;
 }
 
 .gallery-container h1 {
