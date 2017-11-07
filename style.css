@@ -12,9 +12,9 @@ body {
     position:absolute;
     left:0;
     rigth:0;
-    top:2rem;
     margin-left:auto;
     margin-rigth:auto;
+    bottom:4rem;
 }
 
 .gallery-container h1 {
