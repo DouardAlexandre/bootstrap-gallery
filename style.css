@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-    min-height: calc(100vh-7rem);
+    min-height:100vh;
     font: normal 16px sans-serif;
 }
 #mainNav{
