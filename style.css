@@ -25,10 +25,21 @@ body {
 
 .gallery-container h1 {
     text-align: center;
-    margin-top: 90px;
+    margin-top: 110px;
     font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
-    color: #58595a;
+    color: black;
+    opacity:.8;
+}
+.logo {
+    position:absolute;
+    width:6.2rem;
+    height: 6rem;
+    left:0;
+    right:42.5rem;
+    top:6.3rem;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .gallery-container p.page-description {
