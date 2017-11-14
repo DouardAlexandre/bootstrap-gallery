@@ -1,11 +1,14 @@
 body {
-    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    /*background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);*/
+    background-image:url(img/round.png);
+    background-repeat:repeat;
     min-height:100vh;
     font: normal 16px sans-serif;
 }
 #mainNav{
+    opacity:.8;
     width:100%;
-    height:7rem;
+    height:4rem;
     color:black;
 }
 #mainNav a{
@@ -14,16 +17,15 @@ body {
     right:0;
     margin-left:auto;
     margin-right:auto;
-    bottom:4rem;
     text-decoration: none;
     outline: none;
     color: black;
-    bottom:3rem;
+    bottom:1.7rem;
 }
 
 .gallery-container h1 {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 90px;
     font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
     color: #58595a;
